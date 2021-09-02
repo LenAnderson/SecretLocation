@@ -120,8 +120,7 @@ https://secretlocation.yourdomain.com/view.php?key=yourSecretViewKey
 <img src="https://i.imgur.com/JB6CCS1.png" width="200">
 
 - From the **Action Category** list pick **Net** (1) then **HTTP Request** (1)  
-<img src="https://i.imgur.com/x8BuVij.png" width="200">
- <img src="https://i.imgur.com/RXWzxki.png" width="200">
+<img src="https://i.imgur.com/x8BuVij.png" width="200"> <img src="https://i.imgur.com/RXWzxki.png" width="200">
 
 - Set **Method** to **GET** (1), **URL** to the URL to **add.php** (2) and **QueryParameters** to `lat=%gl_latitude&lon=%gl_longitude&key=yourSecretWriteKey` (3)  
 `%gl_latitude` and `%gl_longitude` are variables received from the previous (get location) step. `yourSecretWriteKey` of course has to be replaced with your write key.  
