@@ -1,0 +1,9 @@
+<Files *>
+	Deny from all
+</Files>
+<Files add.php>
+	Allow from all
+</Files>
+<Files view.php>
+	Allow from all
+</Files>

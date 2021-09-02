@@ -1,0 +1,21 @@
+{
+	"writeKey": "demo-write",
+	"readKey": "demo-read",
+	"keep": 150,
+	"nullIsland": {
+		"lat": -15.9587411,
+		"lon": -5.785443
+	},
+	"markers": [
+		{
+			"label": "Home",
+			"lat": 0.0,
+			"lon": 0.0
+		},
+		{
+			"label": "Work",
+			"lat": 1.0,
+			"lon": 1.0
+		}
+	]
+}

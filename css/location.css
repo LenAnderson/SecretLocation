@@ -1,0 +1,20 @@
+html,
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#controls {
+  left: 100px;
+  position: absolute;
+  right: 100px;
+  top: 0;
+  z-index: 1000;
+}
+#controls #time {
+  width: 100%;
+}
+#map {
+  height: 100vh;
+  width: 100vw;
+}
