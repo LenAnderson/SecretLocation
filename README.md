@@ -95,28 +95,28 @@ https://secretlocation.yourdomain.com/view.php?key=yourSecretViewKey
 
 - Install and open Tasker
 - Make sure you are on the **Profiles** tab (1) and tap the **+** button (2) in the bottom right corner to add a new profile  
-![](https://i.imgur.com/WlbFFea.png | width=200)
+<img src="https://i.imgur.com/WlbFFea.png" width="200">
 - Select **Time** from the dropdown that appears  
-![](https://i.imgur.com/1GxxOO6.png | width=200)
+<img src="https://i.imgur.com/1GxxOO6.png" width="200">
 - Set the time from 12:00AM to 11:59PM and interval to every 10 minutes (or whatever interval and time frame you want to cover) and click the back arrow in the top left corner.  
-![](https://i.imgur.com/nU4e7PS.png | width=200)
+<img src="https://i.imgur.com/nU4e7PS.png" width="200">
 - You will be back on the Profiles screen and a **New Task** button (1) should be visible. Tap that button.  
-![](https://i.imgur.com/NOtEGC0.png | width=200)
+<img src="https://i.imgur.com/NOtEGC0.png" width="200">
 - Enter a **name** for that task and confirm (1).  
-![](https://i.imgur.com/BYCySHu.png | width=200)
+<img src="https://i.imgur.com/BYCySHu.png" width="200">
 - From the **Action Category** list pick **Locaton** (1)  
-![](https://i.imgur.com/47mpIPf.png | width=200)
+<img src="https://i.imgur.com/47mpIPf.png" width="200">
 - Then, from the **Location Action** list pick **Get Location v2** (1)  
-![](https://i.imgur.com/ZV33iNJ.png | width=200)
+<img src="https://i.imgur.com/ZV33iNJ.png" width="200">
 - Look through the options for that action to see if you want to change anything (e.g. minimum accuracy, enable location if needed, timeout...), then tap the back arrow in the top left corner to go back to the Task Edit screen.
 - Tap the plus button (1) in the bottom right corner to add a new step to the task.  
-![](https://i.imgur.com/JB6CCS1.png | width=200)
+<img src="https://i.imgur.com/JB6CCS1.png" width="200">
 - From the **Action Category** list pick **Net** (1) then **HTTP Request** (1)  
-![](https://i.imgur.com/x8BuVij.png | width=200) ![](https://i.imgur.com/RXWzxki.png | width=200)
+<img src="https://i.imgur.com/x8BuVij.png" width="200"> <img src="https://i.imgur.com/RXWzxki.png" width="200">
 - Set **Method** to **GET** (1), **URL** to the URL to **add.php** (2) and **QueryParameters** to `lat=%gl_latitude&lon=%gl_longitude&key=yourSecretWriteKey` (3)  
 `%gl_latitude` and `%gl_longitude` are variables received from the previous (get location) step. `yourSecretWriteKey` of course has to be replaced with your write key.  
 Once done, tap the back arrow in the top left corner to go back to the Task Edit screen.
-![](https://i.imgur.com/krMK19G.png | width=200)
+<img src="https://i.imgur.com/krMK19G.png" width="200">
 - You can use the play button at the bottom of the screen to run the task and test it. If it works you can exit the Task Edit screen (back arrow).
 - Make sure Tasker is not disabled.  
-![](https://i.imgur.com/JnkXR4n.png | width=200)
+<img src="https://i.imgur.com/JnkXR4n.png" width="200">
